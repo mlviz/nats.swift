@@ -3,10 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "nats-swift",
+    name: "nats-swift-visionos",
     platforms: [
         .macOS(.v13),
         .iOS(.v13),
+        .visionOS(.v1),
     ],
     products: [
         .library(name: "Nats", targets: ["Nats"]),
